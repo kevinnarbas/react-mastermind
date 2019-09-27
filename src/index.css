@@ -16,5 +16,10 @@ code {
 .flex-h {
   display: flex;
   justify-content: center;
+  margin: 10px
+}
+
+button:focus, .btn:focus {
+  outline: none;
 }
 

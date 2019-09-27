@@ -1,9 +1,10 @@
 import React from 'react';
+import './GuessPeg.css'
 
 const GuessPeg = (props) => (
-  <div>
-    {props.color}
-  </div>
+  <button className="button" style= {{backgroundColor: props.color}}>
+
+  </button>
 );
 
 export default GuessPeg;
